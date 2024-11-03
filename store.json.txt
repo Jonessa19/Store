@@ -1,0 +1,52 @@
+{
+  "product": [{
+
+      "name": "Suzuki GSX1300R Hayabusa",
+      "description": "Euro5 compliant, boasting a slick, comprehensive suite of rider electronics, fancy new TFT dash and a big dollop of extra build quality, the new ‘Busa was a worthy successor to the 1999 original which was so fast, it forced the end of the speed race.",
+      "image": "Suzuki.jpg",
+      "price": "₱395,000"
+    },
+   {
+      "name": "BMW G 310 R",
+      "description": "The BMW G 310 R is an entry-level standard motorcycle. It is BMW's first, modern, low-end, beginner motorcycle sold under the BMW Motorrad brand.",
+      "image": "BWM G310 R.jpg",
+      "price": "₱360,000"
+    },
+    {
+      "name": "KAWASAKI NINJA 500 EX500GRFNN",
+      "description": "Kawasaki Ninja 500 EX500GRFNN Features. Both the full LCD instrument panel on the standard models and the TFT display on the SE models offer smartphone connectivity, enabling riders to connect with their machines to enjoy display notifications, riding logs, and community features.",
+      "image": "KAWASAKI NINJA.jpg",
+      "price": "₱380,000"
+    },
+    {
+      "name": "YZF R7",
+        "description": "The Yamaha YZF-R7 or OW-02 is a race homologation motorcycle made by Yamaha in limited production run of only 500 units worldwide,",
+      "image": "yamaha-yzf-r7-abs-6657ee49e2e01.webp",
+      "price": "₱395,000"
+    },
+    {
+      "name": "BMW ",
+      "description": "The BMW G 310 R is an entry-level standard motorcycle. It is BMW's first, modern, low-end, beginner motorcycle sold under the BMW Motorrad brand.",
+      "image": "imagesbmw.jpeg",
+      "price": "₱390,000"
+    },
+       {
+      "name": "LS2 ",
+      "description": "",
+      "image": "imagels2(1).jpeg",
+      "price": "₱99,000"
+      },
+       {
+      "name": "LS2 ",
+      "description": "",
+      "image": "imagesls2.jpeg",
+      "price": "₱99,000"
+      },
+      {
+            "name": "Nolan",
+      "description": "",
+      "image": "nolan.jpeg",
+      "price": "₱99,000"
+      }
+  ]
+}

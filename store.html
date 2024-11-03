@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE MOTORSHOP</title>
+<style>
+        body,footer {
+            font-family: "Times New Roman",Times, serif;
+            margin: 0; 
+            padding: 0;
+            text-align: center;
+            background-image:linear-gradient(#e6e6fa, #b0c4de);
+        }
+        h1{
+            margin: 20px 0;
+            font-size: 2em;
+            border-bottom: 1px dotted #000;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .motorcycle-card {
+            border: 6px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+            background-color: #d3d3d3;
+           
+        }
+        .motorcycle-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .motorcycle-card h3 {
+            margin: 10px 0;
+        }
+        .motorcycle-card p {
+            color: dimgray;
+        }
+        .price {
+            font-weight: bold;
+            color: #d3d3d3
+        }
+   </style>
+</head>
+<body>
+  <header>
+    <h1 align = "center">JONESSA'S ONLINE MOTORSHOP</h1></header>
+    <div class="container" id="jonessa"></div>
+
+    <script>
+        // Fetch data from the JSON file
+      fetch('store.json')
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById('jonessa');
+                
+      data.product.forEach(motorcycle=> { 
+        const creyjo = document.createElement('jonessa');
+        creyjo.className = 'motorcycle-card';
+        creyjo.innerHTML = `<img src="${motorcycle.image}" motorcycle="${motorcycle.name}">
+             <h3>${motorcycle.name}</h3>
+             <p>${motorcycle.description}</p>
+             <p class="price">${motorcycle.price}</p>
+                    `;
+               container.appendChild(creyjo);
+          });
+      })
+         .catch(error => {
+            console.error('error', error);
+         });
+    </script>
+    <footer>
+      <p>Designed By: JONESSA CANTIGA</p>
+      <p>G-12 COOPER</p>
+    </footer>
+</body>
+</html>
